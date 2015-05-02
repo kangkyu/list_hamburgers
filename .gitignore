@@ -15,5 +15,3 @@
 /log/*
 !/log/.keep
 /tmp
-
-/lib/tasks/list-of-hamburger-restaurants/*
