@@ -10,23 +10,43 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require normalize-rails
  *= require_tree .
  *= require_self
  */
 
 body {
   font-family: Verdana;
-
-  background: black;
-  color: white;
-
   text-align: center;
 }
 
-h1 {
+header {
+  background: url(./hamburger_picture.jpg);
+  background-size: cover;
+  color: white;
+  background-position: center;
+}
 
+h1 {
+  font-size: 70px;
+  padding: 100px;
 }
 
 p {
   font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: Gray;
+}
+
+a:hover {
+  color: Black;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+  }
 }
