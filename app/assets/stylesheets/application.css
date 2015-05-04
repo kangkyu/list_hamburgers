@@ -22,9 +22,23 @@ body {
 
 header {
   background: url(./hamburger_picture.jpg);
+  background-color: Black;
   background-size: cover;
   color: white;
   background-position: center;
+}
+
+.burgers {
+
+}
+
+.burger {
+  display: inline;
+  padding: 0 20px 0 20px;
+  float: left;
+
+  border: 1px solid;
+  margin: 10px;
 }
 
 h1 {
