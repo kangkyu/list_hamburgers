@@ -18,3 +18,6 @@
 
 # Ignore
 .DS_Store
+
+# Ignore images directory for the time being
+app/assets/images/*

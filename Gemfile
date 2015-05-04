@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 ruby '2.2.2'
 
+gem 'minitest-rails'
+group :test do
+  gem 'minitest-rails-capybara'
+end
+
 gem 'normalize-rails'
 
 group :production do
