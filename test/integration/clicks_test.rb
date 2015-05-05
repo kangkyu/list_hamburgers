@@ -1,4 +1,5 @@
 require "test_helper"
+require 'mechanize'
 
 class ClicksTest < ActionDispatch::IntegrationTest
   include Capybara::DSL
@@ -16,9 +17,9 @@ class ClicksTest < ActionDispatch::IntegrationTest
   end
 
   def test_links_success
+    agent = Mechanize.new
     @burgers.each do |burger|
-      get burger["url"]
-      assert_response :success
+      assert_nothing_raised { agent.get(burger["url"]) }
     end
   end
 end
