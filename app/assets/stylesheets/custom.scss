@@ -1,0 +1,49 @@
+body {
+  font-family: Verdana;
+  text-align: center;
+}
+
+header {
+  background: url(./hamburger_picture.jpg);
+  background-color: Black;
+  background-size: cover;
+  color: white;
+  background-position: center;
+}
+
+.burgers {
+
+}
+
+.burger {
+  display: inline;
+  padding: 0 20px 0 20px;
+  float: left;
+
+  border: 1px solid;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 70px;
+  padding: 100px;
+}
+
+p {
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  color: Gray;
+}
+
+a:hover {
+  color: Black;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+  }
+}
