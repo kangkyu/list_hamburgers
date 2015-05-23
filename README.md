@@ -1,2 +1,6 @@
 README
 ===
+
+```
+/list_hamburgers
+```
