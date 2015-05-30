@@ -1,0 +1,3 @@
+[submodule "list-of-hamburger-restaurants"]
+	path = list-of-hamburger-restaurants
+	url = https://github.com/kangkyu/list-of-hamburger-restaurants.git
